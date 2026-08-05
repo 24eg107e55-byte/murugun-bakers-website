@@ -3,64 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Murugun Bakers</title>
-</head>
 
+    <title>Murugun Bakers</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
 <body>
     <center>
-    <header>
-        <h2>Murugun baker's</h2>
+        <header>
+            <h2>Murugun baker's</h2>
+            <nav>
+                <a href="#">Home</a> |
+                <a href="https://b.zmtcdn.com/data/menus/050/20499050/d5ea996e7a133548e15f5b9054b2867d.jpeg">Menu</a> |
+                <a href="https://b.zmtcdn.com/data/pictures/chains/0/19056850/aeae3dc917dc449641a11927d1f9016f.jpg">Gallery</a> |
+                <a href="#Register">Register</a> |
+                <a href="#Contact">Contact</a>
+            </nav>
+        </header>
+        <br>
 
-        <nav>
-            <a href="#">Home</a> |
-            <a href="https://b.zmtcdn.com/data/menus/050/20499050/d5ea996e7a133548e15f5b9054b2867d.jpeg">Menu</a> |
-            <a href="https://b.zmtcdn.com/data/pictures/chains/0/19056850/aeae3dc917dc449641a11927d1f9016f.jpg">Gallery</a> |
-            <a href="#Register">Register</a> |
-            <a href="#Contact">Contact</a>
-        </nav>
-    </header>
-    <br>
         <h1>Register Now</h1>
-    <br>
 
-    <div >
+        <br>
 
-        <form>
+        <div>
 
-            <label ><b>Name :</b></label><br>
-            <input type="text" placeholder="Enter your Name" size="28" required>
+            <form novalidate>
 
-            <br><br>
+                <label><b>Name :</b></label><br>
+                <input type="text" id="name" placeholder="Enter your Name">
 
-            <label ><b>Phone :</b></label><br>
-            <input type="tel" placeholder="Enter your Phone Number" size="28" required>
+                <br><br>
 
-            <br><br>
+                <label><b>Phone :</b></label><br>
+                <input type="tel" id="phone" placeholder="Enter your Phone Number">
 
-            <label><b>Password :</b></label><br>
-            <input type="password" placeholder="Enter your Password" size="28" required>
+                <br><br>
 
-            <br><br>
+                <label><b>Password :</b></label><br>
+                <input type="password" id="password" placeholder="Enter your Password">
 
-            <input type="submit" value="Register">
+                <br><br>
 
-        </form>
+                <input type="button" value="Register" onclick="validate()">
 
-    </div>
+            </form>
+        </div>
 
-    <br><br>
+        <br><br>
 
-    <footer id="Contact" >
+        <footer id="Contact">
 
-        <h3>Murugun Baker's</h3>
+            <h3>Murugun Baker's</h3>
 
-        <p>📞 Phone: 7900205050</p>
+            <p>📞 Phone: 7900205050</p>
 
-        <p>📧 Email: murugunbakers@gmail.com</p>
+            <p>📧 Email: murugunbakers@gmail.com</p>
 
-        <p>© 2026 Murugun Baker's. All Rights Reserved.</p>
+            <p>© 2026 Murugun Baker's. All Rights Reserved.</p>
 
-    </footer>
+        </footer>
     </center>
 </body>
+
 </html>
