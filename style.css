@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf4e3;
+}
+
+header {
+    background-color: #d99ca7;
+    color: white;
+    text-align: center;
+
+}
+
+nav {
+    background-color: #f4c9a8;
+    text-align: center;
+    padding: 15px;
+
+}
+
+nav a {
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+img {
+    width: 280px;
+    height: 250px;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.about h2 {
+    color: brown;
+}
+
+footer {
+    background-color: #e0b1ba;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.register-header {
+    background-color: #dd9059;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.register-box {
+    width: 400px;
+    padding: 30px;
+    background-color: #fff1d6;
+    text-align: center;
+}
+
+label {
+    font-size: 22px;
+    color: #e07e38;
+}
+
+input[type="submit"] {
+    padding: 8px 25px;
+    background-color: #c07c4b;
+    color: white;
+}
