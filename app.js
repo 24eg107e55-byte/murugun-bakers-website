@@ -1,7 +1,7 @@
 function validate() {
-    const name = document.getElementById("name");
-    const tel = document.getElementById("phone");
-    const password = document.getElementById("password");
+    const name = document.getElementById("name").value.trim();
+    const tel = document.getElementById("phone").value.trim();
+    const password = document.getElementById("password").value.trim();
 
     const namepattern = /^[A-Za-z ]{3,15}$/;
     const phonepattern = /^[0-9]{10}$/;
