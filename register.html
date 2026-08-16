@@ -1,70 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Murugun Bakers</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    <center>
-        <header>
-            <h2>Murugun baker's</h2>
-            <nav>
-                <a href="#">Home</a> |
-                <a href="https://b.zmtcdn.com/data/menus/050/20499050/d5ea996e7a133548e15f5b9054b2867d.jpeg">Menu</a> |
-                <a href="https://b.zmtcdn.com/data/pictures/chains/0/19056850/aeae3dc917dc449641a11927d1f9016f.jpg">Gallery</a> |
-                <a href="#Register">Register</a> |
-                <a href="#Contact">Contact</a>
-            </nav>
-        </header>
-        <br>
 
-        <h1>Register Now</h1>
+    <form novalidate>
 
-        <br>
-
-        <div>
-
-            <form novalidate>
-
-                <label><b>Name :</b></label><br>
-                <input type="text" id="name" placeholder="Enter your Name">
-
-                <br><br>
-
-                <label><b>Phone :</b></label><br>
-                <input type="tel" id="phone" placeholder="Enter your Phone Number">
-
-                <br><br>
-
-                <label><b>Password :</b></label><br>
-                <input type="password" id="password" placeholder="Enter your Password">
-
-                <br><br>
-
-                <input type="button" value="Register" onclick="validate()">
-
-            </form>
-        </div>
+        <label>Name :</label><br>
+        <input type="text" id="name" placeholder="Enter your Name">
 
         <br><br>
 
-        <footer id="Contact">
+        <label>Phone :</label><br>
+        <input type="tel" id="phone" placeholder="Enter your Phone Number">
 
-            <h3>Murugun Baker's</h3>
+        <br><br>
 
-            <p>📞 Phone: 7900205050</p>
+        <label>Password :</label><br>
+        <input type="password" id="password" placeholder="Enter your Password">
 
-            <p>📧 Email: murugunbakers@gmail.com</p>
+        <br><br>
 
-            <p>© 2026 Murugun Baker's. All Rights Reserved.</p>
+        <input type="button" value="Register" onclick="validate()">
 
-        </footer>
-    </center>
+    </form>
+
 </body>
-
 </html>
